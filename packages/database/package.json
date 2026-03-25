@@ -1,0 +1,21 @@
+{
+  "name": "@social-commerce/database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^7.5.0"
+  },
+  "devDependencies": {
+    "prisma": "^7.5.0",
+    "typescript": "^6.0.2"
+  }
+}
